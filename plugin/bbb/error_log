@@ -1,0 +1,48 @@
+[17-Mar-2014 03:36:00 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(165): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(139): BigBlueButtonBN->createMeetingWithXmlResponseArray(Array)
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/start.php(36): bbb->create_meeting(Array)
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77
+[17-Mar-2014 03:36:16 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(285): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(184): BigBlueButtonBN->isMeetingRunningWithXmlResponseArray('1')
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/start.php(25): bbb->join_meeting('PRIMARY5SCIENCE')
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77
+[17-Mar-2014 03:37:55 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(457): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(265): BigBlueButtonBN->getRecordingsWithXmlResponseArray(Array)
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/listing.php(73): bbb->get_course_meetings()
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77
+[17-Mar-2014 03:38:07 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(457): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(265): BigBlueButtonBN->getRecordingsWithXmlResponseArray(Array)
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/listing.php(73): bbb->get_course_meetings()
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77
+[17-Mar-2014 03:38:18 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(457): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(265): BigBlueButtonBN->getRecordingsWithXmlResponseArray(Array)
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/listing.php(73): bbb->get_course_meetings()
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77
+[17-Mar-2014 03:38:39 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php:77
+Stack trace:
+#0 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(77): SimpleXMLElement->__construct('<html><head><ti...')
+#1 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php(457): BigBlueButtonBN->_processXmlResponse('54.255.138.243/...')
+#2 /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb.lib.php(265): BigBlueButtonBN->getRecordingsWithXmlResponseArray(Array)
+#3 /home8/gowrigro/public_html/princedemo/plugin/bbb/listing.php(73): bbb->get_course_meetings()
+#4 {main}
+  thrown in /home8/gowrigro/public_html/princedemo/plugin/bbb/lib/bbb_api.php on line 77

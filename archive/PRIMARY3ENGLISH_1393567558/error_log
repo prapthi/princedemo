@@ -1,0 +1,4 @@
+[18-Feb-2014 17:43:03 America/Denver] PHP Notice:  Undefined variable: is_courseMember in /home8/gowrigro/public_html/princedemo/main/inc/local.inc.php on line 1025
+[18-Feb-2014 17:43:03 America/Denver] PHP Notice:  Undefined variable: is_courseAdmin in /home8/gowrigro/public_html/princedemo/main/inc/local.inc.php on line 1056
+[18-Feb-2014 17:43:03 America/Denver] PHP Notice:  Undefined variable: is_courseMember in /home8/gowrigro/public_html/princedemo/main/inc/local.inc.php on line 1057
+[18-Feb-2014 17:43:03 America/Denver] PHP Notice:  Undefined variable: is_courseTutor in /home8/gowrigro/public_html/princedemo/main/inc/local.inc.php on line 1058
