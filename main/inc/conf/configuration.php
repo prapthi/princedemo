@@ -60,13 +60,13 @@ $_configuration['user_personal_database']='kipdemo';
  * Directory settings
  */
 // URL to the root of your Chamilo installation, e.g.: http://www.mychamilo.com/
-$_configuration['root_web']       = 'kipdemo.azurewebsites.net';
+$_configuration['root_web']       = 'http://kipdemo.azurewebsites.net/';
 
 // Path to the webroot of system, example: /var/www/
-$_configuration['root_sys']       = '/site\wwwroot/';
+$_configuration['root_sys']       = '/site/wwwroot/';
 
 // Path from your WWW-root to the root of your Chamilo installation, example: chamilo (this means chamilo is installed in /var/www/chamilo/
-$_configuration['url_append']     = '/kipdemo';
+$_configuration['url_append']     = 'http://kipdemo.azurewebsites.net/';
 
 // Directory of the Chamilo code. You could change this but it is not advised since this has not been tested yet.
 $_configuration['code_append']    = "main/";
