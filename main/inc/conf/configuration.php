@@ -29,11 +29,11 @@
  * MYSQL connection settings
  */
 // Your MySQL server
-$_configuration['db_host']     = 'localhost';
+$_configuration['db_host']     = 'ap-cdbr-azure-east-c.cloudapp.net';
 // Your MySQL username
-$_configuration['db_user']     = 'gowrigro_chamilo';
+$_configuration['db_user']     = 'b46f6e5a50b314';
 // Your MySQL password
-$_configuration['db_password'] = 'chamilo123';
+$_configuration['db_password'] = 'c28d5379';
 
 /**
  * Database settings
@@ -49,24 +49,24 @@ $_configuration['db_glue']               = '`.`';
 // prefix all created bases (for courses) with this string
 $_configuration['db_prefix']             = '';
 // main Chamilo database
-$_configuration['main_database']         = 'gowrigro_chamilo';
+$_configuration['main_database']         = 'kipdemo';
 // stats Chamilo database
-$_configuration['statistics_database']   ='gowrigro_chamilo';
+$_configuration['statistics_database']   ='kipdemo';
 // User Personal Database (where all the personal stuff of the user is stored
 // (personal agenda items, course sorting)
-$_configuration['user_personal_database']='gowrigro_chamilo';
+$_configuration['user_personal_database']='kipdemo';
 
 /**
  * Directory settings
  */
 // URL to the root of your Chamilo installation, e.g.: http://www.mychamilo.com/
-$_configuration['root_web']       = 'http://gowrigroup.com/princedemo/';
+$_configuration['root_web']       = 'kipdemo.azurewebsites.net';
 
 // Path to the webroot of system, example: /var/www/
-$_configuration['root_sys']       = '/home8/gowrigro/public_html/princedemo/';
+$_configuration['root_sys']       = '/site\wwwroot/';
 
 // Path from your WWW-root to the root of your Chamilo installation, example: chamilo (this means chamilo is installed in /var/www/chamilo/
-$_configuration['url_append']     = '/princedemo';
+$_configuration['url_append']     = '/kipdemo';
 
 // Directory of the Chamilo code. You could change this but it is not advised since this has not been tested yet.
 $_configuration['code_append']    = "main/";
