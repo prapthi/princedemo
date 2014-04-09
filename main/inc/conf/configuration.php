@@ -51,10 +51,10 @@ $_configuration['db_prefix']             = '';
 // main Chamilo database
 $_configuration['main_database']         = 'kipdemo';
 // stats Chamilo database
-$_configuration['statistics_database']   ='kipdemo';
+$_configuration['statistics_database']   = 'kipdemo';
 // User Personal Database (where all the personal stuff of the user is stored
 // (personal agenda items, course sorting)
-$_configuration['user_personal_database']='kipdemo';
+$_configuration['user_personal_database']= 'kipdemo';
 
 /**
  * Directory settings
@@ -63,7 +63,7 @@ $_configuration['user_personal_database']='kipdemo';
 $_configuration['root_web']       = 'http://kipdemo.azurewebsites.net/';
 
 // Path to the webroot of system, example: /var/www/
-$_configuration['root_sys']       = '/site/wwwroot/';
+$_configuration['root_sys']       = '/';
 
 // Path from your WWW-root to the root of your Chamilo installation, example: chamilo (this means chamilo is installed in /var/www/chamilo/
 $_configuration['url_append']     = 'http://kipdemo.azurewebsites.net/';
